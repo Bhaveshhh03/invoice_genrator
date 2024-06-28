@@ -1,0 +1,73 @@
+.container{
+    margin-top:30px;
+   
+   
+}
+#inputGroupFile04{
+    width: 40px;
+}
+.input-group{
+   width: 80%;
+}
+.description{
+    justify-self: end;
+}
+.input-group-text{
+    color:black;
+}
+@media print{
+    .btn{
+        display: none;
+    }
+    .container,b{
+        font-size: 14px;
+
+    }
+    .form-control{
+        border: 0;
+        font-size: 11px;
+        /* font-weight: bold; */
+        
+    }
+   
+    .form-controldetail{
+        margin-bottom: -50px;
+    }
+    .input-group {
+        margin-bottom:-7px;
+    }
+   #noprint{
+    display: none;
+   }
+   .input-group-text{
+        border: 0;
+        font-weight: bold;
+        font-size: xx-large;
+   }
+   .noborder{
+    display: none;
+   }
+   #selectborder{
+    border: 0;
+    margin-top: -5px;
+    margin-left: -10px;
+   }
+   #stateinput{
+   margin-left:-20px;
+    width: 50px;
+   }
+   #showdata{
+    width: -10px;
+   }
+   #showdescp{
+   margin-right: 100px;
+   }
+   .table{
+   
+    font-size: x-small;
+   }
+   #showdataup{
+    width: 80px;
+   }
+}
+
